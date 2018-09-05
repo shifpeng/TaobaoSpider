@@ -5,6 +5,7 @@ from selenium import webdriver
 #引入异常处理
 from selenium.common.exceptions import TimeoutException
 #参考http://selenium-python.readthedocs.io/waits.html
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
